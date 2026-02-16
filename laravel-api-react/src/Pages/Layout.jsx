@@ -17,6 +17,7 @@ export default function Layout(){
       });
       const data = await res.json();
       console.log(data);
+      
 
       if(res.ok){
          setUser(null);
